@@ -1,5 +1,6 @@
 import requests
-import json 
+import json
+import os  
 from os import environ, path
 import discord
 from dotenv import load_dotenv

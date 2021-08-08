@@ -48,8 +48,8 @@ async def on_ready():
 async def stats(ctx):
     actual_height, height, temp0, temp1, uptime, status = get_stats()
     embed1 = discord.Embed(title="Bobcat Miner Stats", color=0x00F500)
-    embed1.add_field(name="Status", value=str(status), inline=False)
-    embed1.add_field(name="uptime", value=str(uptime), inline=False)
+    embed1.add_field(name="Status", value=str(uptime), inline=False)
+    embed1.add_field(name="uptime", value=str(status), inline=False)
     embed1.add_field(name="temp1", value=str(temp1), inline=False)
     embed1.add_field(name="temp0", value=str(temp0), inline=False)
     embed1.add_field(name="Miner's height", value=str(height), inline=False)

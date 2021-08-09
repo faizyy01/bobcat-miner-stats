@@ -8,8 +8,8 @@ Discord bot to display Helium bobcat miner statistics.
 Commands: 
 
 ```
-!status
-Display bobcat miners statistics
+!stats (takes upto 10 seconds to respond.)
+Display bobcat miners statistics 
 ```
 
 # Setup 
